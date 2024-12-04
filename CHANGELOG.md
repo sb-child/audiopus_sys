@@ -2,6 +2,11 @@
 
 An overview of changes:
 
+## [0.2.1]
+
+* Updated `opus` to version `1.5.2`.
+* Updated `bindgen` to version `0.70.1`.
+
 ## [0.2.0]
 
 * Now requires `cmake`.

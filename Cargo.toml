@@ -10,7 +10,7 @@ categories = ["api-bindings", "compression", "encoding",
 description = "FFI-Binding to Opus, dynamically or statically linked for Windows and UNIX."
 readme = "README.md"
 documentation = "https://docs.rs/audiopus_sys"
-edition = "2018"
+edition = "2021"
 
 [dependencies]
 
@@ -20,7 +20,7 @@ pkg-config = "0.3"
 cmake = "0.1"
 
 [build-dependencies.bindgen]
-version = "0.58"
+version = "0.70.1"
 optional = true
 
 [features]
